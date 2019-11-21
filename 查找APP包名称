@@ -1,2 +1,12 @@
 adb shell dumpsys window w |findstr \/ |findstr name=
   "手机上打开该APP，cmd输入上述指令，显示APP包名称"
+adb shell pm list packages
+  "列出手机上安装的所有APP包名称"
+adb shell pm list packages -s
+  "系统应用所有包名"
+adb shell pm list packages -3
+  "除了系统应用外的所有第三方应用包名"
+adb logcat
+  "查看日志"
+adb shell wm size
+  "查看屏幕分辨率"
