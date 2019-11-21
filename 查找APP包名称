@@ -1,0 +1,2 @@
+adb shell dumpsys window w |findstr \/ |findstr name=
+  "手机上打开该APP，cmd输入上述指令，显示APP包名称"
