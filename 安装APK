@@ -1,7 +1,7 @@
 adb install <path-of-apk>
   "安装apk文件"
 adb install [-lrtsdg] <path-of-apk>
-  "[-lrtsdg]是参数的意思，用的比较多的是-r,意味着覆盖安装"
+  "[-lrtsdg]意为参数，用的比较多的是-r,指覆盖安装"
 adb uninstall <packagename>
   "卸载apk文件"
 adb uninstall -k <packagename> 
