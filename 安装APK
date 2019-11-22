@@ -1,0 +1,12 @@
+adb install <path-of-apk>
+  "安装apk文件"
+adb install [-lrtsdg] <path-of-apk>
+  "[-lrtsdg]是参数的意思，用的比较多的是-r,意味着覆盖安装"
+adb uninstall <packagename>
+  "卸载apk文件"
+adb uninstall -k <packagename> 
+  "卸载文件，但是保留数据和目录"
+adb shell pm clear <packagename>
+  "清除应用数据和缓存"
+ adb shell input keyevent <keycode>
+  "模拟按键或输入"
